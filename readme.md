@@ -16,10 +16,24 @@ Using pip:
 pip install -r requirements.txt
 ```
 
+Once the environment is created, you can activate it using the following command:
+
+```bash
+source myvenv/bin/activate
+```
+
 Using conda:
 
 ```bash
 conda env create -f environment.yml
+```
+
+The new environment will be named according to the name field in the environment.yml file and can be changed before creating it.
+
+Once the environment is created, you can activate it using the following command:
+
+```bash
+conda activate environment_name
 ```
 
 ### Using the app
